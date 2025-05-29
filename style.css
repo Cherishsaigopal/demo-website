@@ -1,0 +1,212 @@
+body{
+    background-color:#070d1a;
+    font-family: poppins, sans-serif;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    list-style-type:none;
+    display:flex;
+    gap:20px;
+}
+.logo{
+    color:white;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.nav-links li a{
+    color:white;
+    text-decoration: none;
+    font-size:18px;
+    margin-right: 10px;
+}
+.nav-links li:hover{
+    transform: translateY(-3px);
+    transition: transform 0.5s ease;
+}
+.nav-links a:hover{
+    color:#10a3d7;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.hero-section p{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.hero-section h1{
+    font-size: 45px;
+}
+.hero-section hr{
+    background-color:#10a3d7;
+    width: 50px;
+    height:2px;
+    border: none;
+    border-radius: 10px;
+}
+.hero-section span{
+    color: #10a3d7;
+}
+.hero-section p,.desp{
+    font-size: 18px;
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.hero-buttons button{
+    border: none;
+    border-radius: 50px;
+    padding:20px;
+    font-family: 'poppins', sans-serif;
+}
+.hero-buttons .os{
+    background-color: #10a3d7;
+    color:white;
+}
+.hero-buttons .os:hover{
+    box-shadow:0px 0px 10px white;
+    transform:translateY(-3px);
+    transition: all 0.3s ease;
+}
+.hero-buttons .vp{
+    background-color: #070d1a;
+    color:white;
+    border:1px solid white;
+}
+.hero-buttons .vp:hover{
+    box-shadow:0px 0px 10px white;
+    transform:translateY(-3px);
+    transition: all 0.3s ease;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+.image img{
+    width:500px;
+    height:500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #10a3d7;
+}
+.image img:hover{
+    transform: translate3d(0px,-5px,0px);
+    transition: all 0.2s ease-in-out;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.about{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color:white;
+    margin-bottom:0;
+}
+.about hr{
+    background-color: #10a3d7;
+    width:50px;
+    height:2px;
+    border: none;
+    border-radius: 10px;
+    margin-top:0;
+}
+.hero2-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.hero2-section img{
+    width: 750px;
+    height: 460px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #10a3d7;
+}
+.hero2-descp{
+    color:white;
+    margin-left: 50px;
+}
+.hero2-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    padding: 20px;
+}
+.hero2-btn button{
+    border:none;
+    border-radius: 50px;
+    padding:20px;
+    font-family: poppins, sans-serif;
+    background-color:  #1c1f26;
+    color: white;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+}
+.check{
+    background-color: #00bfff;
+    color:white;
+    border-radius: 50%;
+    width:22px;
+    height:22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.hero2-btn button:hover{
+    transform:scale(1.09);
+}
+.count-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    padding:60px 0;
+}
+.icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #10a3d7;
+    border-radius: 50%;
+    font-size: 36px;
+    width:80px;
+    height: 80px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1f26 ;
+    color:white;
+    padding:50px 30px;
+    border-radius: 15px;
+    font-family: 'poppins', sans-serif; 
+    box-sizing: border-box;
+}
+.count-cnt p{
+    font-size:20px;
+    margin:10px
+}
+.count-cnt,.card span{
+    font-size: 36px;
+    color: white;
+    margin-top: 10px;
+}
